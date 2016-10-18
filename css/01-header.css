@@ -21,19 +21,21 @@ body {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .header-list{
   float:right;
 }
 
-.header-list li{
+.header-list > li{
   float: left;
   border-left: 1px solid #eee;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
-.header-list li:last-child{
+.header-list > li:last-child{
   border-right: 1px solid #eee;
 }
 
@@ -41,6 +43,6 @@ body {
   background: black;
 }
 
-.header-list li:hover {
+.header-list > li:hover {
   background: black;
 }
