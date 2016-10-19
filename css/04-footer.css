@@ -28,3 +28,7 @@
 .footer-list li:last-child{
   margin-right: 13px;
 }
+
+.footer-list li:hover {
+  color: black;
+}
