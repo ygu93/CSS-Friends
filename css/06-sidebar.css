@@ -1,1 +1,19 @@
 /* PHASE 6: Sidebar */
+.profile-picture{
+  background: url(../assets/cat.jpg);
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.profile-info{
+
+}
+
+.profile-nav{
+
+}
